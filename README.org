@@ -82,7 +82,7 @@ If you have troubles to download the package, you can also build the server your
 3. Set executable to ~lsp-python-ms-executable~.
 
    #+BEGIN_SRC elisp
-   ;; for executable of language server, if it's not symlinked on your PATH
+   ;; for executable of language server
    (setq lsp-python-ms-executable
          "~/python-language-server/output/bin/Release/osx-x64/publish/Microsoft.Python.LanguageServer")
    #+END_SRC
